@@ -1,0 +1,42 @@
+.chat-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.figma-glass-pill-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-lg);
+  transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.figma-glass-pill-container:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+.figma-chat-textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 17px;
+  line-height: 1.47059;
+  resize: vertical;
+  min-height: 150px;
+  letter-spacing: -0.022em;
+}
+
+.figma-chat-textarea::placeholder {
+  color: var(--text-muted);
+  white-space: pre-line;
+  line-height: 1.47059;
+}
+
+.input-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+}

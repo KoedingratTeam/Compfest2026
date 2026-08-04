@@ -1,0 +1,45 @@
+# === Environment ===
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# === Node / Frontend ===
+node_modules/
+dist/
+build/
+*.local
+
+# === Python / Backend ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+inspect_figma_full.py
+
+# === Database ===
+*.db
+*.sqlite3
+
+# === Docker ===
+.docker/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Logs ===
+*.log
+npm-debug.log*
