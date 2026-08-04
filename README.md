@@ -108,5 +108,5 @@ CompfestWeb/
 
 ## 📄 Lisensi & Kredit
 
-Dipersembahkan untuk **COMPFEST 18 AI Innovation Challenge (AIC)** oleh Tim DagangAI.  
-Hak Cipta © 2026 DagangAI.
+Dipersembahkan untuk **COMPFEST 18 AI Innovation Challenge (AIC)** oleh Tim Koedingrat.  
+Hak Cipta © 2026 Koedingrat.
